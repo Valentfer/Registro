@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
                 }){
                 override fun getParams(): MutableMap<String, String> {
                     val datos: MutableMap<String, String> = java.util.HashMap()
-                    datos["dni"] = "09009253S"
+                    datos["dni"] = "NumDni"
                     datos["hora_entrada"] = LocalTime.now().toString()
                     datos["fecha"] = LocalDate.now().toString()
                     return datos
